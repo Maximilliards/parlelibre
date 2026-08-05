@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from '@/lib/router';
 import { supabase } from '@/lib/supabase';
 import type { BlogArticle, BlogCategory, BlogComment } from '@/lib/types';
 import { Calendar, ArrowRight, Newspaper, Clock, MessageCircle, Send } from 'lucide-react';
