@@ -102,13 +102,13 @@ export function HomePage() {
             },
             {
               icon: Quote,
-              title: 'Lisez des histoires partagées',
+              title: 'Lire & se sentir moins seul',
               text: "Découvrez des expériences partagées anonymement. Vous n'êtes pas seul·e à traverser des moments difficiles.",
               cta: { to: '/histoires-partagees', label: 'Lire les histoires' },
             },
             {
               icon: CalendarHeart,
-              title: 'Réservez une séance',
+              title: 'Etre écouté.e',
               text: "45 minutes d'écoute personnalisée sur WhatsApp, avec un·e écoutant·e formé·e. 5 000 FCFA la séance.",
               cta: { to: '/reserver', label: 'Voir les créneaux' },
             },
