@@ -56,9 +56,8 @@ export function HomePage() {
               <span className="text-teal-700">être écouté sans jugement.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-stone-600 leading-relaxed">
-              ParleLibre est un espace où vous pouvez exprimer ce que vous vivez, déposer une
-              situation en toute confidentialité, et bénéficier d'une séance d'écoute
-              personnalisée.
+              Vous n'avez pas toujours besoin d'une solution. Parfois, vous avez simplement besoin de parler.
+              ParleLibre vous offre un espace pour déposer ce que vous vivez, librement et sans jugement.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link to="/exprimer" className="btn-primary">
