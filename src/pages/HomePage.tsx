@@ -90,14 +90,14 @@ export function HomePage() {
           center
           eyebrow="Comment ça marche"
           title="Un espace pour vous, à votre rythme"
-          subtitle="Trois façons d'utiliser ParleLibre, selon ce dont vous avez besoin aujourd'hui."
+          subtitle="Cinq façons d'utiliser ParleLibre, selon ce dont vous avez besoin aujourd'hui."
         />
         <div className="mt-12 grid gap-6 md:grid-cols-3 lg:grid-cols-5">
           {[
             {
               icon: PenLine,
               title: 'Exprimez-vous',
-              text: "Déposez anonymement une situation que vous traversez. Vos mots restent strictement privés, sauf si vous autorisez leur partage.",
+              text: "Mettez par écrit ce que vous avez sur le cœur. Vos mots restent strictement privés, sauf si vous autorisez leur partage de manière totalement anonyme.",
               cta: { to: '/exprimer', label: 'Écrire maintenant' },
             },
             {
