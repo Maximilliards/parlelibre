@@ -24,6 +24,7 @@ import { AdminNotificationsPage } from '@/pages/admin/AdminNotificationsPage';
 import { BlogPage, BlogArticlePage } from '@/pages/BlogPage';
 import { DonatePage } from '@/pages/DonatePage';
 import { Loader2 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 function AppRoutes() {
   const { path } = useRouter();
@@ -99,6 +100,7 @@ export default function App() {
     <RouterProvider>
       <AuthProvider>
         <AppRoutes />
+        <Analytics />
       </AuthProvider>
     </RouterProvider>
   );
